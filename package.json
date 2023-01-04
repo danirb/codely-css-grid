@@ -1,0 +1,21 @@
+{
+  "name": "codely-css-grid",
+  "version": "1.0.0",
+  "description": "grid course",
+  "private": true,
+  "scripts": {
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.29.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
